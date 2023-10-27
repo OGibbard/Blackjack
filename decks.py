@@ -18,3 +18,7 @@ def classDeck():
 def tuplesDeck():
     quickDeck=product(numbers, suits)
     return quickDeck
+
+def blackjackDeck():
+    blackjackNums = numbers*4
+    return (blackjackNums)
